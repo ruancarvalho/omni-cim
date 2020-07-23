@@ -1,0 +1,13 @@
+Questões
+
+Responda sucintamente os itens a seguir em um .txt levando as perguntas e as respostas para o controle de versão da maneira que julgar mais apropriado:
+
+1. A solução deve ser disponibilizada em Cloud ou On-premise?
+
+2. Considerando a participação de 4 pessoas técnicas para o desenvolvimento dessa solução, responda qual ferramenta acreditas ser apropriada para o controle de tarefas da equipe, a ferramenta é ágil?
+
+3. Você se sente capaz de liderar esta equipe? Por quê?
+
+4. Se pudesse sugerir uma melhoria, mudança ou oportunidade. O que seria?
+
+5. Acha válido esse desafio para o processo que está participando?
