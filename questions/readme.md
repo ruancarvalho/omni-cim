@@ -36,6 +36,8 @@ O mecanismo de mensagens (Message Broker) precisa de uma melhor avaliação de c
 
 Uma possível oportunidade seria usar esses dados das interações em um sistema de recomendações de produtos e ofertas, baseado no que o usuário estaria precisando conforme suas interações/dúvidas/reclamações.
 
+Melhorias de código incluiriam: usar TypeScript e adicionar testes unitários e de integração.
+
 ## 5. Acha válido esse desafio para o processo que está participando?
 
 Este desafio foi bastante válido por abranger a parte de Systems Design, Arquitetura, Infra, e Código. Basicamente, exigiu uma visão geral de todo um sistema complexo e de conceitos mais modernos (como o Omnichannel), mas sem exigir absurdos (como a implementação de tudo, o que não seria viável).
