@@ -1,8 +1,8 @@
-Questões
+# Questões
 
 Responda sucintamente os itens a seguir em um .txt levando as perguntas e as respostas para o controle de versão da maneira que julgar mais apropriado:
 
-1. A solução deve ser disponibilizada em Cloud ou On-premise?
+## 1. A solução deve ser disponibilizada em Cloud ou On-premise?
 
 Deve ser disponibilizada em Cloud.
 
@@ -10,13 +10,13 @@ Isso reduziria custos de manutenção dos servidores, e aceleraria o desenvolvim
 
 A estrutura on-premise não seria interessante - neste caso - porque demanda toda uma infraestrutura interna de servidores e equipamentos dentro da empresa. Praticamente, construir um data center. Além disso, haveria a necessidade de se ter uma equipe completa para manter essa infra, junto com as preocupações com segurança física e de dados, backups e atualizações. 
 
-2. Considerando a participação de 4 pessoas técnicas para o desenvolvimento dessa solução, responda qual ferramenta acreditas ser apropriada para o controle de tarefas da equipe, a ferramenta é ágil?
+## 2. Considerando a participação de 4 pessoas técnicas para o desenvolvimento dessa solução, responda qual ferramenta acreditas ser apropriada para o controle de tarefas da equipe, a ferramenta é ágil?
 
 O Github possui uma ferramenta de tracking de projetos dentro de cada repositório que pode ser usada. É ágil. E possibilita criar quadros Kanban ou de Scrum que o time poderia usar para controlar as tarefas (backlog) - juntamente com as issues (bug tracking).
 
 Outra opção seria o Trello, que também é agile. Além desses, Asana e Jira podem ser avaliados pelo time.
 
-3. Você se sente capaz de liderar esta equipe? Por quê?
+## 3. Você se sente capaz de liderar esta equipe? Por quê?
 
 Acredito que sim.
 
@@ -26,7 +26,7 @@ Fazíamos, também, o desenvolvimento de algumas das ferramentas que eles usavam
 
 Então seria um processo similar, porém, em maior escala.
 
-4. Se pudesse sugerir uma melhoria, mudança ou oportunidade. O que seria?
+## 4. Se pudesse sugerir uma melhoria, mudança ou oportunidade. O que seria?
 
 Esta proposta de solução precisa ainda definir a autenticação de usuários, as definições de UI para o painel de interações, a utilização de um Load Balancer para melhor distribuir a carga das interações dos usuários, e a utilização de uma cloud privada para proteger o sistema.
 
@@ -36,7 +36,7 @@ O mecanismo de mensagens (Message Broker) precisa de uma melhor avaliação de c
 
 Uma possível oportunidade seria usar esses dados das interações em um sistema de recomendações de produtos e ofertas, baseado no que o usuário estaria precisando conforme suas interações/dúvidas/reclamações.
 
-5. Acha válido esse desafio para o processo que está participando?
+## 5. Acha válido esse desafio para o processo que está participando?
 
 Este desafio foi bastante válido por abranger a parte de Systems Design, Arquitetura, Infra, e Código. Basicamente, exigiu uma visão geral de todo um sistema complexo e de conceitos mais modernos (como o Omnichannel), mas sem exigir absurdos (como a implementação de tudo, o que não seria viável).
 
