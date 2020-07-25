@@ -11,13 +11,14 @@ const Op = model.Sequelize.Op;
  */
 exports.create = (req, res) => {
   // Validate request
-  if (!req.body.title) {
+  if (!req.body.name) {
     res.status(400).send({
       message: "Content can not be empty!"
     });
     return;
   }
 
+  // TODO: add other fields to customer
   const newCustomer = {
     name: req.body.name,
   };
@@ -42,8 +43,8 @@ exports.create = (req, res) => {
  */
 exports.findAll = (req, res) => {
   Customer.findAll()
-    .then(data => {
-      res.send(data);
+    .then(customers => {
+      res.send(customers);
     })
     .catch(err => {
       res.status(500).send({
