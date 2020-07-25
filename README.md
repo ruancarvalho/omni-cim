@@ -23,7 +23,7 @@ $ docker -v && docker-compose -v
 ```
 
 ----
-## How-To
+## How-To Use
 
 ```
 $ git clone git@github.com:ruancarvalho/omni-cim.git
@@ -33,10 +33,25 @@ $ git clone git@github.com:ruancarvalho/omni-cim.git
 $ cd omni-cim/
 ```
 
+Pull and Build all container images with:
 ```
 $ docker-compose build
 ```
 
+**First-time Only**
+
+Use docker compose to create a MySQL database
+```
+$ docker-compose run server sequelize db:create
+```
+
+Use docker compose to create the tables
+```
+$ docker-compose run server sequelize db:migrate
+```
+
+
+Now, start all containers with:
 ```
 $ docker-compose up
 ```
