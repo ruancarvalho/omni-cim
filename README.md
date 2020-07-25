@@ -8,7 +8,65 @@ The following are the deliverables of this challenge:
 * [**omni-cim-server folder**](/omni-cim-server) - the code for an API server for the admin panel
 * [**questions folder**](/questions) - answers for questions made on this challenge (PT-BR).
 
-## The Problem
+----
+## Requirements
+
+Please, make sure you have the following installed
+
+* Docker
+* Docker Compose
+
+You can use this command to check:
+
+```
+$ docker -v && docker-compose -v
+```
+
+----
+## How-To Use
+
+```
+$ git clone git@github.com:ruancarvalho/omni-cim.git
+```
+
+```
+$ cd omni-cim/
+```
+
+Pull and Build all container images with:
+```
+$ docker-compose build
+```
+
+**First-time Only**
+
+Use docker compose to create a MySQL database
+```
+$ docker-compose run server sequelize db:create
+```
+
+Use docker compose to create the tables
+```
+$ docker-compose run server sequelize db:migrate
+```
+
+
+Now, start all containers with:
+```
+$ docker-compose up
+```
+
+----
+## Services
+
+[localhost:3000](http://localhost:3000) - the **omni-cim-panel** which is the **front-end app**
+
+[localhost:5000](http://localhost:5000) - the **omni-cim-server** backend api
+
+[localhost:8080](http://localhost:8080) - the "adminer" which is a very simple database client, so you can see the tables.
+
+----
+## Problem and Proposed Solution
 
 Currently, we provide several digital channels for interaction with people that make up our customers profile. We identified the need to unify the user experience of in all channels, in a more objective, precise enable the following actions:
 
