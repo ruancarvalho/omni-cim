@@ -9,12 +9,12 @@ var corsOptions = {
 };
 
 const db = require("./models");
-// db.sequelize.sync();
+db.sequelize.sync();
 
-// Use only if needed
-db.sequelize.sync({ force: true }).then(() => {
-  console.log("Drop and re-sync db.");
-});
+// Use only if needed to restart the DB on each restart
+// db.sequelize.sync({ force: true }).then(() => {
+//   console.log("Drop and re-sync db.");
+// });
 
 app.use(cors(corsOptions));
 

@@ -11,10 +11,10 @@ WORKDIR /omni-cim-server/
 COPY package.json ./
 COPY package-lock.json ./
 RUN npm install --silent
+RUN npm install -g sequelize-cli
 
-# add app
+# add entire app
 COPY . ./
-# ADD server.js /omni-cim-server/
 
 # start app
 CMD ["npm", "start"]
